@@ -1,28 +1,105 @@
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto html-preamble:t
-#+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
+#+OPTIONS: html-scripts:t html-style:t html5-fancy:t tex:t toc:nil num:nil
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_CONTAINER: div
 #+DESCRIPTION:
-#+KEYWORDS:
+#+KEYWORDS:ku,emacs,kuemacs,kuemacsclub,club,organization,jayhawk
 #+HTML_LINK_HOME:
 #+HTML_LINK_UP:
 #+HTML_MATHJAX:
-#+HTML_HEAD:
+#+HTML_HEAD:<style type="text/css">body{margin:50px auto;max-width:900px;line-height:1.6;font-size:16px;color:#434;padding:0 10px}h1{font-size:40px;line-height:1.2}h2{font-size:28px;line-height:1.2}.subtitle{font-size: 18px !important;}</style>
 #+HTML_HEAD_EXTRA:
-#+SUBTITLE:
+#+SUBTITLE: Full knowledge of the past helps us in dealing with the future. (Teddy Roosevelt, Progressives Past and Present)
 #+INFOJS_OPT:
-#+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="https://orgmode.org">Org</a> mode 9.1.9)
+#+CREATOR: Sandy and Zach
+#+EMAIL:ctu@ku.edu
 #+LATEX_HEADER:
-* test header
+#+TITLE:KU Emacs Club
+* Welcome to the club, son
 
-#+BEGIN_SRC c
-  #include <stdio.h>
+Let's see what we can do...
 
-  int main() {
-	  printf("hello, world");
-	  return 0;
-  }
+/Here is some italics/
+*Here is some bold*
+=Here is some verbatim=
+
+#+BEGIN_CENTER
+This should be centered?
+#+END_CENTER
+
+Here is a link to one of the [[https://motherfuckingwebsite.com][best websites in the world]]
+
+Here is some listings:
+
+- One
+- Two
+- Three
+- Four
+
+Maybe with numbers?
+
+1. oof
+2. hello
+3. there
+4. general
+
+Some TODO stuff I can slap in here
+** TODO chew gum and kick ass
+** DONE i'm all outta gum
+   CLOSED: [2019-09-22 Sun 16:55]
+
+How about some dope tables:
+
+| Name  | Age | Occupation |
+|-------+-----+------------|
+| Sandy | 20  | This guy   |
+| Zach  | ??? | ???        |
+
+How about just some blocks of code?
+
+#+BEGIN_SRC 
+some pseucode
+with newlines
+and non breaking
 #+END_SRC
+
+But we are better than that
+
+ Here is some C code:
+
+ #+BEGIN_SRC c
+   #include <stdio.h>
+
+   int main() {
+	   printf("hello, world");
+	   return 0;
+   }
+ #+END_SRC
+
+ Here is some go code:
+ #+BEGIN_SRC go
+   package main
+
+   import "fmt"
+
+   func main() {
+	   fmt.Println("hello, world")
+   }
+ #+END_SRC
+
+ Here is some shell:
+
+ #+BEGIN_SRC sh
+   echo "hello, world"
+ #+END_SRC
+
+Here is a picture of a lynx
+
+#+CAPTION: Lynx, I love them
+[[./lynx.jpeg]]
+
+You can resize the picture with =#+OPTIONS:= and slap in there some html stuff
+
 ** Some sub header with text
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -31,3 +108,4 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
 sunt in culpa qui officia deserunt mollit anim id est laborum. 
+*** Lolo
