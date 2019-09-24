@@ -1,5 +1,5 @@
-#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto html-preamble:t
 #+OPTIONS: html-scripts:t html-style:t html5-fancy:t tex:t toc:nil num:nil
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto html-preamble:t
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_CONTAINER: div
 #+DESCRIPTION:
@@ -15,97 +15,13 @@
 #+EMAIL:ctu@ku.edu
 #+LATEX_HEADER:
 #+TITLE:KU Emacs Club
-* Welcome to the club, son
+* Our mission
 
-Let's see what we can do...
-
-/Here is some italics/
-*Here is some bold*
-=Here is some verbatim=
-
-#+BEGIN_CENTER
-This should be centered?
-#+END_CENTER
-
-Here is a link to one of the [[https://motherfuckingwebsite.com][best websites in the world]]
-
-Here is some listings:
-
-- One
-- Two
-- Three
-- Four
-
-Maybe with numbers?
-
-1. oof
-2. hello
-3. there
-4. general
-
-Some TODO stuff I can slap in here
-** TODO chew gum and kick ass
-** DONE i'm all outta gum
-   CLOSED: [2019-09-22 Sun 16:55]
-
-How about some dope tables:
-
-| Name  | Age | Occupation |
-|-------+-----+------------|
-| Sandy | 20  | This guy   |
-| Zach  | ??? | ???        |
-
-How about just some blocks of code?
-
-#+BEGIN_SRC 
-some pseucode
-with newlines
-and non breaking
+#+BEGIN_SRC lisp
+(defun mission-statement ()
+"Emacs Club is an eclectic gathering of hackers in the spirit of our
+forebearers' homebrew computer clubs; a place to demystify the tools available
+to computer scientists, share insights and exchange ideas, and create one's own
+master tool to dissolve the barrier between thought and code")
+(provide 'emacs-club)
 #+END_SRC
-
-But we are better than that
-
- Here is some C code:
-
- #+BEGIN_SRC c
-   #include <stdio.h>
-
-   int main() {
-	   printf("hello, world");
-	   return 0;
-   }
- #+END_SRC
-
- Here is some go code:
- #+BEGIN_SRC go
-   package main
-
-   import "fmt"
-
-   func main() {
-	   fmt.Println("hello, world")
-   }
- #+END_SRC
-
- Here is some shell:
-
- #+BEGIN_SRC sh
-   echo "hello, world"
- #+END_SRC
-
-Here is a picture of a lynx
-
-#+CAPTION: Lynx, I love them
-[[./lynx.jpeg]]
-
-You can resize the picture with =#+OPTIONS:= and slap in there some html stuff
-
-** Some sub header with text
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-sunt in culpa qui officia deserunt mollit anim id est laborum. 
-*** Lolo
