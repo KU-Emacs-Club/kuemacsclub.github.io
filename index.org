@@ -26,10 +26,12 @@
 
 #+BEGIN_SRC lisp
 (defun mission-statement ()
-"Emacs Club is an eclectic gathering of hackers in the spirit of our
+  "Print the KU Emacs Club mission statement."
+  (interactive)
+  (message "Emacs Club is an eclectic gathering of hackers in the spirit of our
 forebearers' homebrew computer clubs; a place to demystify the tools available
 to computer scientists, share insights and exchange ideas, and create one's own
-master tool to dissolve the barrier between thought and code")
+master tool to dissolve the barrier between thought and code"))
 (provide 'emacs-club)
 #+END_SRC
 * Schedule
