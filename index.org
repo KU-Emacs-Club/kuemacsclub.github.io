@@ -1,5 +1,7 @@
 #+OPTIONS: html-scripts:t html-style:t html5-fancy:t tex:t toc:nil num:nil
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto html-preamble:t
+#+OPTIONS: html-postamble:nil
+#+MACRO: NEWLINE @@latex:\\@@ @@html:<br>@@
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_CONTAINER: div
 #+DESCRIPTION:
@@ -9,12 +11,17 @@
 #+HTML_MATHJAX:
 #+HTML_HEAD:<style type="text/css">body{margin:50px auto;max-width:900px;line-height:1.6;font-size:16px;color:#434;padding:0 10px}h1{font-size:40px;line-height:1.2}h2{font-size:28px;line-height:1.2}.subtitle{font-size: 18px !important;}</style>
 #+HTML_HEAD_EXTRA:
-#+SUBTITLE: Full knowledge of the past helps us in dealing with the future. (Teddy Roosevelt, Progressives Past and Present)
+#+SUBTITLE: Full knowledge of the past helps us in dealing with the future. {{{NEWLINE}}} (Teddy Roosevelt, Progressives Past and Present)
 #+INFOJS_OPT:
 #+CREATOR: Sandy and Zach
-#+EMAIL:ctu@ku.edu
 #+LATEX_HEADER:
 #+TITLE:KU Emacs Club
+
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 25% :height 25%
+[[./download.png]]
+#+END_CENTER
+
 * Our mission
 
 #+BEGIN_SRC lisp
@@ -25,3 +32,12 @@ to computer scientists, share insights and exchange ideas, and create one's own
 master tool to dissolve the barrier between thought and code")
 (provide 'emacs-club)
 #+END_SRC
+* Schedule
+
+| Date      | Place   | Time   | Topic          | Host                     |
+|-----------+---------+--------+----------------+--------------------------|
+| October 1 | Anshutz | 6:00pm | Intro to emacs | Zach Pearson (President) |
+* Current Officers
+- Zach Pearson, Co-Founder and President
+- Sagindyk (Sandy) Urazayev, Co-founder and Vice-President
+- Jonathan Downs, Treasurer
