@@ -34,9 +34,9 @@ master tool to dissolve the barrier between thought and code")
 #+END_SRC
 * Schedule
 
-| Date      | Place   | Time   | Topic          | Host                     |
-|-----------+---------+--------+----------------+--------------------------|
-| October 1 | Anshutz | 6:00pm | Intro to emacs | Zach Pearson (President) |
+| Date      | Place    | Time   | Topic          | Host                     |
+|-----------+----------+--------+----------------+--------------------------|
+| October 1 | Anschutz | 6:00pm | Intro to Emacs | Zach Pearson (President) |
 * Current Officers
 - Zach Pearson, Co-Founder and President
 - Sagindyk (Sandy) Urazayev, Co-founder and Vice-President
