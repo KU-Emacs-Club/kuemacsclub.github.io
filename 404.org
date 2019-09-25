@@ -1,0 +1,46 @@
+#+OPTIONS: html-scripts:t html-style:t html5-fancy:t tex:t toc:nil num:nil
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto html-preamble:t
+#+OPTIONS: html-postamble:nil
+#+MACRO: NEWLINE @@latex:\\@@ @@html:<br>@@
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:ku,emacs,kuemacs,kuemacsclub,club,organization,jayhawk
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:<style type="text/css">body{margin:50px auto;max-width:900px;line-height:1.6;font-size:16px;color:#434;padding:0 10px}h1{font-size:40px;line-height:1.2}h2{font-size:28px;line-height:1.2}.subtitle{font-size: 18px !important;}</style>
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE: You just got a 404
+#+INFOJS_OPT:
+#+CREATOR: Sandy and Zach
+#+LATEX_HEADER:
+#+TITLE:Not found
+
+#+BEGIN_SRC 
+       _    ____  _____  __   _____  _   _   _     ___  ____ _____ ___ 
+      / \  |  _ \| ____| \ \ / / _ \| | | | | |   / _ \/ ___|_   _|__ \
+     / _ \ | |_) |  _|    \ V / | | | | | | | |  | | | \___ \ | |   / /
+    / ___ \|  _ <| |___    | || |_| | |_| | | |__| |_| |___) || |  |_| 
+   /_/   \_\_| \_\_____|   |_| \___/ \___/  |_____\___/|____/ |_|  (_) 
+
+
+                      _-`````-,           ,- '- .
+                    .'   .- - |          | - -.  `.
+                   /.'  /                     `.   \
+                  :/   :      _...   ..._      ``   :
+                  ::   :     /._ .`:'_.._\.    ||   :
+                  ::    `._ ./  ,`  :    \ . _.''   .
+                  `:.      /   |  -.  \-. \\_      /
+                    \:._ _/  .'   .@)  \@) ` `\ ,.'
+                       _/,--'       .- .\,-.`--`.
+                         ,'/''     (( \ `  )    
+                          /'/'  \    `-'  (      
+                           '/''  `._,-----'
+                            ''/'    .,---'
+                             ''/'      ;:
+                               ''/''  ''/
+                                 ''/''/''
+                                   '/'/'
+                                    `;))
+#+END_SRC
