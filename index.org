@@ -40,6 +40,8 @@ master tool to dissolve the barrier between thought and code"))
 |-----------+--------------+--------+----------------+--------------------------|
 | October 1 | 201 Anschutz | 6:00pm | Intro to Emacs | Zach Pearson (President) |
 * Current Officers
-- Zach Pearson, Co-Founder and President
-- Sagindyk (Sandy) Urazayev, Co-founder and Vice-President
+- Zach Pearson, Co-Founder and President ([[mailto:zjp@ku.edu][zjp@ku.edu]])
+- Sagindyk (Sandy) Urazayev, Co-founder and Vice-President ([[mailto:ctu@ku.edu][ctu@ku.edu]])
 - Jonathan Downs, Treasurer
+* This webpage
+This webpage is written in pure Emacs Org-Mode. The webpage code is [[https://github.com/kuemacs/kuemacs.github.io][here]].
