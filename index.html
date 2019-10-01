@@ -3,11 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-09-26 Thu 21:27 -->
+<!-- 2019-10-01 Tue 15:15 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>KU Emacs Club</title>
 <meta name="generator" content="Org mode" />
+<meta name="author" content="Zach Pearson" />
 <meta name="keywords" content="ku,emacs,kuemacs,kuemacsclub,club,organization,jayhawk" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
@@ -161,6 +162,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -232,7 +246,7 @@ for the JavaScript code in this tag.
 <div id="content">
 <h1 class="title">KU Emacs Club
 <br />
-<span class="subtitle">Full knowledge of the past helps us in dealing with the future.  <br> (Teddy Roosevelt, Progressives Past and Present)</span>
+<span class="subtitle">Full knowledge of the past helps us in dealing with the future. (Teddy Roosevelt, Progressives Past and Present)</span>
 </h1>
 <div class="org-center">
 
@@ -242,25 +256,25 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org0eb9f92" class="outline-2">
-<h2 id="org0eb9f92">Our mission</h2>
-<div class="outline-text-2" id="text-org0eb9f92">
+<div id="outline-container-org653088b" class="outline-2">
+<h2 id="org653088b">Our mission</h2>
+<div class="outline-text-2" id="text-org653088b">
 <div class="org-src-container">
-<pre class="src src-lisp">(<span style="color: #00bfff;">defun</span> <span style="color: #daa520;">mission-statement</span> ()
-  <span style="color: #ffe4b5;">"Print the KU Emacs Club mission statement."</span>
-  (interactive)
-  (message <span style="color: #deb887;">"Emacs Club is an eclectic gathering of hackers in the spirit of our</span>
-<span style="color: #deb887;">forebearers' homebrew computer clubs; a place to demystify the tools available</span>
-<span style="color: #deb887;">to computer scientists, share insights and exchange ideas, and create one's own</span>
-<span style="color: #deb887;">master tool to dissolve the barrier between thought and code"</span>))
-(<span style="color: #00bfff;">provide</span> '<span style="color: #a2cd5a;">emacs-club</span>)
+<pre class="src src-lisp"><span style="color: #458588;">(</span><span style="color: #fb4933;">defun</span> <span style="color: #fabd2f;">mission-statement</span> <span style="color: #b16286;">()</span>
+  <span style="color: #b8bb26;">"Print the KU Emacs Club mission statement."</span>
+  <span style="color: #b16286;">(</span>interactive<span style="color: #b16286;">)</span>
+  <span style="color: #b16286;">(</span>message <span style="color: #b8bb26;">"Emacs Club is an eclectic gathering of hackers in the spirit of our</span>
+<span style="color: #b8bb26;">forebearers' homebrew computer clubs; a place to demystify the tools available</span>
+<span style="color: #b8bb26;">to computer scientists, share insights and exchange ideas, and create one's own</span>
+<span style="color: #b8bb26;">master tool to dissolve the barrier between thought and code"</span><span style="color: #b16286;">)</span><span style="color: #458588;">)</span>
+<span style="color: #458588;">(</span><span style="color: #fb4933;">provide</span> '<span style="color: #d3869b;">emacs-club</span><span style="color: #458588;">)</span>
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org89e4169" class="outline-2">
-<h2 id="org89e4169">Schedule</h2>
-<div class="outline-text-2" id="text-org89e4169">
+<div id="outline-container-org36bf189" class="outline-2">
+<h2 id="org36bf189">Schedule</h2>
+<div class="outline-text-2" id="text-org36bf189">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -296,9 +310,9 @@ for the JavaScript code in this tag.
 </table>
 </div>
 </div>
-<div id="outline-container-org5e04670" class="outline-2">
-<h2 id="org5e04670">Current Officers</h2>
-<div class="outline-text-2" id="text-org5e04670">
+<div id="outline-container-org97d3955" class="outline-2">
+<h2 id="org97d3955">Current Officers</h2>
+<div class="outline-text-2" id="text-org97d3955">
 <ul class="org-ul">
 <li>Zach Pearson, Co-Founder and President (<a href="mailto:zjp@ku.edu">zjp@ku.edu</a>)</li>
 <li>Sagindyk (Sandy) Urazayev, Co-founder and Vice-President (<a href="mailto:ctu@ku.edu">ctu@ku.edu</a>)</li>
@@ -306,9 +320,9 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
-<div id="outline-container-org944bc01" class="outline-2">
-<h2 id="org944bc01">This webpage</h2>
-<div class="outline-text-2" id="text-org944bc01">
+<div id="outline-container-org0550ceb" class="outline-2">
+<h2 id="org0550ceb">This webpage</h2>
+<div class="outline-text-2" id="text-org0550ceb">
 <p>
 This webpage is written in pure Emacs Org-Mode. The webpage code is <a href="https://github.com/kuemacs/kuemacs.github.io">here</a>.
 </p>
