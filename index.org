@@ -1,3 +1,4 @@
+# -*- org-src-fontify-natively: t; -*-
 #+OPTIONS: html-scripts:t html-style:t html5-fancy:t tex:t toc:nil num:nil
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto html-preamble:t
 #+OPTIONS: html-postamble:nil
@@ -66,5 +67,6 @@ master tool to dissolve the barrier between thought and code"))
 - Zach Pearson, Co-Founder and President ([[mailto:zjp@ku.edu][zjp@ku.edu]])
 - Sagindyk (Sandy) Urazayev, Co-founder and Vice-President ([[mailto:ctu@ku.edu][ctu@ku.edu]])
 - Jonathan Downs, Treasurer
+* Resources
 * This webpage
 This webpage is written in pure Emacs Org-Mode. The webpage code is [[https://github.com/kuemacs/kuemacs.github.io][here]].
