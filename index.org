@@ -68,5 +68,5 @@ master tool to dissolve the barrier between thought and code"))
 - Sagindyk (Sandy) Urazayev, Co-founder and Vice-President ([[mailto:ctu@ku.edu][ctu@ku.edu]])
 - Jonathan Downs, Treasurer
 * Resources
-* This webpage
+* M-x describe-this-webpage
 This webpage is written in pure Emacs Org-Mode. The webpage code is [[https://github.com/kuemacs/kuemacs.github.io][here]].
