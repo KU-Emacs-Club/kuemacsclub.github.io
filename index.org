@@ -36,14 +36,14 @@ master tool to dissolve the barrier between thought and code"))
 (provide 'emacs-club)
 #+END_SRC
 * Schedule
-| Date      | Place        | Time   | Topic                       | Host                           |
-|-----------+--------------+--------+-----------------------------+--------------------------------|
-| 1 October | 201 Anschutz | 6:00pm | Intro to Emacs              | Zach Pearson (President)       |
-|-----------+--------------+--------+-----------------------------+--------------------------------|
-| 8 October | 1144 ISB     | 6:00pm | The Go Programming Language | Sandy Uraz. (VP)               |
-|-----------+--------------+--------+-----------------------------+--------------------------------|
-# | 15 October  |              |        |                |                          |
-# |-------------+--------------+--------+----------------+--------------------------|
+| Date       | Place        | Time   | Topic                       | Host                     |
+|------------+--------------+--------+-----------------------------+--------------------------|
+| 1 October  | 201 Anschutz | 6:00pm | Intro to Emacs              | Zach Pearson (President) |
+|------------+--------------+--------+-----------------------------+--------------------------|
+| 8 October  | 1144 ISB     | 6:00pm | The Go Programming Language | Sandy Uraz. (VP)         |
+|------------+--------------+--------+-----------------------------+--------------------------|
+| 17 October | 1144 ISB     | 6:00pm | Functional Programming      | Alex Shadley             |
+|------------+--------------+--------+-----------------------------+--------------------------|
 # | 22 October  |              |        |                |                          |
 # |-------------+--------------+--------+----------------+--------------------------|
 # | 29 October  |              |        |                |                          |
@@ -67,6 +67,9 @@ master tool to dissolve the barrier between thought and code"))
 - Zach Pearson, Co-Founder and President ([[mailto:zjp@ku.edu][zjp@ku.edu]])
 - Sagindyk (Sandy) Urazayev, Co-founder and Vice-President ([[mailto:ctu@ku.edu][ctu@ku.edu]])
 - Jonathan Downs, Treasurer
+
 * Resources
+[[https://github.com/KUEmacs/meeting-notes][Meeting Notes]]
+
 * M-x describe-this-webpage
 This webpage is written in pure Emacs Org-Mode. The webpage code is [[https://github.com/kuemacs/kuemacs.github.io][here]].
