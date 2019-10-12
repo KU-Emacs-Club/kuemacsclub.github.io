@@ -20,7 +20,7 @@
 
 #+BEGIN_CENTER
 #+ATTR_HTML: :width 25% :height 25%
-[[./download.png]]
+[[./gnu.png]]
 #+END_CENTER
 
 * Our mission
