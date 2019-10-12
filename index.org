@@ -38,7 +38,7 @@ master tool to dissolve the barrier between thought and code"))
 * Schedule
 | Date       | Place        | Time   | Topic                               | Host                     |
 |------------+--------------+--------+-------------------------------------+--------------------------|
-| 1 October  | 201 Anschutz | 6:00pm | Intro to Emacs                      | Zach Pearson (President) |
+| 1 October  | 201 Anschutz | 6:00pm | Intro to Emacs Club                 | Zach Pearson (President) |
 |------------+--------------+--------+-------------------------------------+--------------------------|
 | 8 October  | 1144 ISB     | 6:00pm | The Go Programming Language         | Sandy Uraz. (VP)         |
 |------------+--------------+--------+-------------------------------------+--------------------------|
