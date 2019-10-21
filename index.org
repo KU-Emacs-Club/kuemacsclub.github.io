@@ -44,7 +44,7 @@ master tool to dissolve the barrier between thought and code"))
 |------------+--------------+--------+-------------------------------------+--------------------------|
 | 17 October | 1144 ISB     | 6:00pm | Editing Nirvana                     | Zach Pearson (President) |
 |------------+--------------+--------+-------------------------------------+--------------------------|
-| 22 October | TBD          | 6:00pm | Functional Web Programming with Elm | Alex Shadley             |
+| 22 October | 1144 ISB     | 6:00pm | Functional Web Programming with Elm | Alex Shadley             |
 |------------+--------------+--------+-------------------------------------+--------------------------|
 # | 29 October  |              |        |                |                          |
 # |-------------+--------------+--------+----------------+--------------------------|
