@@ -10,7 +10,7 @@
 #+HTML_LINK_HOME:
 #+HTML_LINK_UP:
 #+HTML_MATHJAX:
-#+HTML_HEAD:<style type="text/css">body{margin:50px auto;max-width:900px;line-height:1.6;font-size:16px;color:#434;padding:0 10px}h1{font-size:40px;line-height:1.2}h2{font-size:28px;line-height:1.2}.subtitle{font-size: 18px !important;}</style>
+#+HTML_HEAD:<style type="text/css">body{margin:50px auto;max-width:900px;line-height:1.6;font-size:16px;color:#434;padding:0 10px}h1{font-size:40px;line-height:1.2}h2{font-size:28px;line-height:1.2}.subtitle{font-size: 18px !important;}</style><script src="snowstorm-min.js"></script>
 #+HTML_HEAD_EXTRA:
 #+SUBTITLE: Full knowledge of the past helps us in dealing with the future. {{{NEWLINE}}} (Teddy Roosevelt, Progressives Past and Present)
 #+INFOJS_OPT:
@@ -20,7 +20,7 @@
 
 #+BEGIN_CENTER
 #+ATTR_HTML: :width 25% :height 25%
-[[./gnu.png]]
+[[./gnu_christmas.png]]
 #+END_CENTER
 
 * Our mission
@@ -46,21 +46,11 @@ master tool to dissolve the barrier between thought and code"))
 |------------+--------------+--------+-------------------------------------+--------------------------|
 | 29 October | 1144 ISB     | 6:00pm | Coreboot                            | Sebastian McMillan       |
 |------------+--------------+--------+-------------------------------------+--------------------------|
-| 5 November | 1144 ISB     | 6:00pm | TBD                                 | TBD                      |
-|------------+--------------+--------+-------------------------------------+--------------------------|
-# |-------------+--------------+--------+----------------+--------------------------|
-# | 12 November |              |        |                |                          |
-# |-------------+--------------+--------+----------------+--------------------------|
-# | 19 November |              |        |                |                          |
-# |-------------+--------------+--------+----------------+--------------------------|
-# | 26 November |              |        |                |                          |
-# |-------------+--------------+--------+----------------+--------------------------|
-# | 3 December  |              |        |                |                          |
-# |-------------+--------------+--------+----------------+--------------------------|
-# | 10 December |              |        |                |                          |
-# |-------------+--------------+--------+----------------+--------------------------|
-# | 17 December |              |        |                |                          |
-# |-------------+--------------+--------+----------------+--------------------------|
+
+Thank you all for coming to our meeting this semester! Best of luck and see you
+all soon!
+
+Merry Christmas and a Happy New Year to you from KU Emacs Club!
 
 * Current Officers
 - Zach Pearson, Co-Founder and President ([[mailto:zjp@ku.edu][zjp@ku.edu]])
