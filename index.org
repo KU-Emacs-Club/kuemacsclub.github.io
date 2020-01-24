@@ -10,7 +10,7 @@
 #+HTML_LINK_HOME:
 #+HTML_LINK_UP:
 #+HTML_MATHJAX:
-#+HTML_HEAD:<style type="text/css">body{margin:50px auto;max-width:900px;line-height:1.6;font-size:16px;color:#434;padding:0 10px}h1{font-size:40px;line-height:1.2}h2{font-size:28px;line-height:1.2}.subtitle{font-size: 18px !important;}</style><script src="snowstorm-min.js"></script>
+#+HTML_HEAD:<style type="text/css">body{margin:50px auto;max-width:900px;line-height:1.6;font-size:16px;color:#434;padding:0 10px}h1{font-size:40px;line-height:1.2}h2{font-size:28px;line-height:1.2}.subtitle{font-size: 18px !important;}</style>
 #+HTML_HEAD_EXTRA:
 #+SUBTITLE: Full knowledge of the past helps us in dealing with the future. {{{NEWLINE}}} (Teddy Roosevelt, Progressives Past and Present)
 #+INFOJS_OPT:
