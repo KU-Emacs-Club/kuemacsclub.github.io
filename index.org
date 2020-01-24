@@ -20,7 +20,7 @@
 
 #+BEGIN_CENTER
 #+ATTR_HTML: :width 25% :height 25%
-[[./gnu_christmas.png]]
+[[./gnu.png]]
 #+END_CENTER
 
 * Our mission
@@ -38,19 +38,14 @@ master tool to dissolve the barrier between thought and code"))
 * Schedule
 | Date       | Place        | Time   | Topic                               | Host                     |
 |------------+--------------+--------+-------------------------------------+--------------------------|
-| 1 October  | 201 Anschutz | 6:00pm | Intro to Emacs Club                 | Zach Pearson (President) |
-|------------+--------------+--------+-------------------------------------+--------------------------|
-| 8 October  | 1144 ISB     | 6:00pm | The Go Programming Language         | Sandy Uraz (VP)          |
+| 29 October | 1144 ISB     | 6:00pm | Coreboot                            | Sebastian McMillan       |
 |------------+--------------+--------+-------------------------------------+--------------------------|
 | 22 October | 1144 ISB     | 6:00pm | Functional Web Programming with Elm | Alex Shadley             |
 |------------+--------------+--------+-------------------------------------+--------------------------|
-| 29 October | 1144 ISB     | 6:00pm | Coreboot                            | Sebastian McMillan       |
+| 8 October  | 1144 ISB     | 6:00pm | The Go Programming Language         | Sandy Uraz (VP)          |
 |------------+--------------+--------+-------------------------------------+--------------------------|
-
-Thank you all for coming to our meeting this semester! Best of luck and see you
-all soon!
-
-Merry Christmas and a Happy New Year to you from KU Emacs Club!
+| 1 October  | 201 Anschutz | 6:00pm | Intro to Emacs Club                 | Zach Pearson (President) |
+|------------+--------------+--------+-------------------------------------+--------------------------|
 
 * Current Officers
 - Zach Pearson, Co-Founder and President ([[mailto:zjp@ku.edu][zjp@ku.edu]])
