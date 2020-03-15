@@ -23,6 +23,15 @@
 [[./gnu.png]]
 #+END_CENTER
 
+* Announcement regarding COVID-19
+
+Due to the recent developments around the ongoing COVID-19 pandemic, KU Emacs
+Club is suspending all its operations and cancelling all future meetings/talks
+throughout the end of the semester. Please visit [[https://coronavirus.ku.edu/][KU's webpage]] to get latest
+updates. Stay safe
+
+Sandy and Zach
+
 * Our mission
 
 #+BEGIN_SRC lisp
