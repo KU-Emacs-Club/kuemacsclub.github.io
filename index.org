@@ -5,23 +5,18 @@
 #+MACRO: NEWLINE @@latex:\\@@ @@html:<br>@@
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_CONTAINER: div
-#+DESCRIPTION:
+#+DESCRIPTION: Emacs Club is an eclectic gathering of hackers in the spirit of our forebearers' homebrew computer clubs; a place to demystify the tools available to computer scientists, share insights and exchange ideas, and create one's own master tool to dissolve the barrier between thought and code 
 #+KEYWORDS:ku,emacs,kuemacs,kuemacsclub,club,organization,jayhawk
-#+HTML_LINK_HOME:
-#+HTML_LINK_UP:
-#+HTML_MATHJAX:
-#+HTML_HEAD:<style type="text/css">body{margin:50px auto;max-width:900px;line-height:1.6;font-size:16px;color:#434;padding:0 10px}h1{font-size:40px;line-height:1.2}h2{font-size:28px;line-height:1.2}.subtitle{font-size: 18px !important;}</style>
-#+HTML_HEAD_EXTRA:
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
+#+HTML_HEAD_EXTRA: <meta property="og:image" content="./preview.png">
+#+HTML_HEAD_EXTRA: <meta name="author" content="KU Emacs Club">
+#+HTML_HEAD_EXTRA: <meta property="og:site_name" content="KU Emacs Club">
+#+HTML_HEAD_EXTRA: <meta property="og:type" content="object">
+#+HTML_HEAD_EXTRA: <meta property="og:title" content="KU Emacs Club">
+#+HTML_HEAD_EXTRA: <meta property="og:title" content="Sandy&#8217;s Website 🚀">
 #+SUBTITLE: Full knowledge of the past helps us in dealing with the future. {{{NEWLINE}}} (Teddy Roosevelt, Progressives Past and Present)
-#+INFOJS_OPT:
-#+CREATOR: Sandy and Zach
-#+LATEX_HEADER:
 #+TITLE:KU Emacs Club
-
-#+BEGIN_CENTER
-#+ATTR_HTML: :width 25% :height 25%
-[[./gnu.png]]
-#+END_CENTER
+#+CREATOR: Sandy and Zach
 
 * Announcement regarding COVID-19
 

@@ -3,11 +3,14 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-03-15 Sun 17:14 -->
+<!-- 2020-05-09 Sat 15:58 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>KU Emacs Club</title>
 <meta name="generator" content="Org mode" />
+<meta name="author" content="Sandy Urazayev" />
+<meta name="description" content="Emacs Club is an eclectic gathering of hackers in the spirit of our forebearers' homebrew computer clubs; a place to demystify the tools available to computer scientists, share insights and exchange ideas, and create one's own master tool to dissolve the barrier between thought and code"
+ />
 <meta name="keywords" content="ku,emacs,kuemacs,kuemacsclub,club,organization,jayhawk" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
@@ -161,6 +164,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -180,13 +196,19 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<style type="text/css">body{margin:50px auto;max-width:900px;line-height:1.6;font-size:16px;color:#434;padding:0 10px}h1{font-size:40px;line-height:1.2}h2{font-size:28px;line-height:1.2}.subtitle{font-size: 18px !important;}</style>
+<link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
+<meta property="og:image" content="./preview.png">
+<meta name="author" content="KU Emacs Club">
+<meta property="og:site_name" content="KU Emacs Club">
+<meta property="og:type" content="object">
+<meta property="og:title" content="KU Emacs Club">
+<meta property="og:title" content="Sandy&#8217;s Website 🚀">
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2019 Free Software Foundation, Inc.
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -234,17 +256,10 @@ for the JavaScript code in this tag.
 <br />
 <span class="subtitle">Full knowledge of the past helps us in dealing with the future.  <br> (Teddy Roosevelt, Progressives Past and Present)</span>
 </h1>
-<div class="org-center">
 
-<div class="figure">
-<p><img src="./gnu.png" alt="gnu.png" width="25%" height="25%" />
-</p>
-</div>
-</div>
-
-<div id="outline-container-org61ad2df" class="outline-2">
-<h2 id="org61ad2df">Announcement regarding COVID-19</h2>
-<div class="outline-text-2" id="text-org61ad2df">
+<div id="outline-container-org3eeeaaf" class="outline-2">
+<h2 id="org3eeeaaf">Announcement regarding COVID-19</h2>
+<div class="outline-text-2" id="text-org3eeeaaf">
 <p>
 Due to the recent developments around the ongoing COVID-19 pandemic, KU Emacs
 Club is suspending all its operations and cancelling all future meetings/talks
@@ -258,25 +273,25 @@ Sandy and Zach
 </div>
 </div>
 
-<div id="outline-container-org0322dbf" class="outline-2">
-<h2 id="org0322dbf">Our mission</h2>
-<div class="outline-text-2" id="text-org0322dbf">
+<div id="outline-container-org4da29ec" class="outline-2">
+<h2 id="org4da29ec">Our mission</h2>
+<div class="outline-text-2" id="text-org4da29ec">
 <div class="org-src-container">
-<pre class="src src-lisp">(<span style="color: #00ffff;">defun</span> <span style="color: #87cefa;">mission-statement</span> ()
-  <span style="color: #ffa07a;">"Print the KU Emacs Club mission statement."</span>
+<pre class="src src-lisp">(<span style="color: #FFE329;">defun</span> <span style="color: #FF88FF;">mission-statement</span> ()
+  <span style="color: #708090;">"Print the KU Emacs Club mission statement."</span>
   (interactive)
-  (message <span style="color: #ffa07a;">"Emacs Club is an eclectic gathering of hackers in the spirit of our</span>
-<span style="color: #ffa07a;">forebearers' homebrew computer clubs; a place to demystify the tools available</span>
-<span style="color: #ffa07a;">to computer scientists, share insights and exchange ideas, and create one's own</span>
-<span style="color: #ffa07a;">master tool to dissolve the barrier between thought and code"</span>))
-(<span style="color: #00ffff;">provide</span> '<span style="color: #7fffd4;">emacs-club</span>)
+  (message <span style="color: #61CE3C;">"Emacs Club is an eclectic gathering of hackers in the spirit of our</span>
+<span style="color: #61CE3C;">forebearers' homebrew computer clubs; a place to demystify the tools available</span>
+<span style="color: #61CE3C;">to computer scientists, share insights and exchange ideas, and create one's own</span>
+<span style="color: #61CE3C;">master tool to dissolve the barrier between thought and code"</span>))
+(<span style="color: #FFE329;">provide</span> '<span style="color: #FF951B;">emacs-club</span>)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-orgd3071fd" class="outline-2">
-<h2 id="orgd3071fd">Schedule</h2>
-<div class="outline-text-2" id="text-orgd3071fd">
+<div id="outline-container-org706397a" class="outline-2">
+<h2 id="org706397a">Schedule</h2>
+<div class="outline-text-2" id="text-org706397a">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -340,9 +355,9 @@ Sandy and Zach
 </div>
 </div>
 
-<div id="outline-container-orgf270251" class="outline-2">
-<h2 id="orgf270251">Current Officers</h2>
-<div class="outline-text-2" id="text-orgf270251">
+<div id="outline-container-orgfabac54" class="outline-2">
+<h2 id="orgfabac54">Current Officers</h2>
+<div class="outline-text-2" id="text-orgfabac54">
 <ul class="org-ul">
 <li>Zach Pearson, Co-Founder and President (<a href="mailto:zjp@ku.edu">zjp@ku.edu</a>)</li>
 <li>Sagindyk (Sandy) Urazayev, Co-founder and Vice-President (<a href="mailto:ctu@ku.edu">ctu@ku.edu</a>)</li>
@@ -351,18 +366,18 @@ Sandy and Zach
 </div>
 </div>
 
-<div id="outline-container-org539202c" class="outline-2">
-<h2 id="org539202c">Resources</h2>
-<div class="outline-text-2" id="text-org539202c">
+<div id="outline-container-org8c96e1a" class="outline-2">
+<h2 id="org8c96e1a">Resources</h2>
+<div class="outline-text-2" id="text-org8c96e1a">
 <p>
 <a href="https://github.com/KUEmacs/meeting-notes">Meeting Notes</a>
 </p>
 </div>
 </div>
 
-<div id="outline-container-org155ae47" class="outline-2">
-<h2 id="org155ae47">M-x describe-this-webpage</h2>
-<div class="outline-text-2" id="text-org155ae47">
+<div id="outline-container-orgbfd011a" class="outline-2">
+<h2 id="orgbfd011a">M-x describe-this-webpage</h2>
+<div class="outline-text-2" id="text-orgbfd011a">
 <p>
 This webpage is written in pure Emacs Org-Mode. The webpage code is <a href="https://github.com/kuemacs/kuemacs.github.io">here</a>.
 </p>
